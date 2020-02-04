@@ -1,0 +1,33 @@
+.ul {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cards {
+  border: 3px solid #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 346px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.title {
+  color: #fff;
+  font-size: 16px;
+}
+
+.actor {
+  color: #fff;
+  font-size: 14px;
+}
+
+.image {
+  position: absolute;
+  bottom: 0px;
+  width: -webkit-fill-available;
+}
